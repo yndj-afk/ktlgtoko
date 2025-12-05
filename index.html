@@ -117,33 +117,31 @@
         // KEAMANAN: OBFUSCATION NOMOR WA
         // ==========================================
         
-        // Nomor WA kamu saya encode jadi Base64 biar ga gampang dicari pakai Ctrl+F
-        // "NjI4Nzg3NDg5MzYxMA==" adalah kode untuk "6287874893610"
-        // Kalau mau ganti nomor, buka website "base64encode.org", masukkan nomor baru, copy hasilnya kesini.
+        // 
         
         const _0x5f2a = "NjI4Nzg3NDg5MzYxMA=="; 
         
-        // Fungsi decode rahasia
+        // 
         const getWA = () => atob(_0x5f2a);
 
         // ==========================================
 
         const products = [
-            { id: 1, name: "MY Bottle Water 1 (500 ml)", category: "Botol Minum", price: 3459, image: "https://placehold.co/400x400/0ea5e9/ffffff?text=My+Bottle+1" },
-            { id: 2, name: "MY Bottle Water 2 (500 ml)", category: "Botol Minum", price: 3999, image: "https://placehold.co/400x400/0ea5e9/ffffff?text=My+Bottle+2" },
-            { id: 3, name: "LOCk Bottle Character (610 ml)", category: "Botol Minum", price: 14288, image: "https://placehold.co/400x400/a855f7/ffffff?text=Lock+Character" },
-            { id: 4, name: "Sanrio Bottle 1 (900 ml)", category: "Botol Minum", price: 13499, image: "https://placehold.co/400x400/ec4899/ffffff?text=Sanrio+Bottle" },
-            { id: 5, name: "Kotak pensil SANRIO", category: "Lainnya", price: 18999, image: "https://placehold.co/400x400/f472b6/ffffff?text=Kotak+Pensil" },
-            { id: 6, name: "Sanrio JUMBO 1 (2L, 1L, 300ml)", category: "Botol Minum", price: 33999, image: "https://placehold.co/400x400/ec4899/ffffff?text=Sanrio+Jumbo" },
-            { id: 7, name: "Botol NICE (400 ml)", category: "Botol Minum", price: 5288, image: "https://placehold.co/400x400/10b981/ffffff?text=Botol+NICE" },
-            { id: 8, name: "Botol kaktus (450ml)", category: "Botol Minum", price: 4988, image: "https://placehold.co/400x400/22c55e/ffffff?text=Botol+Kaktus" },
-            { id: 9, name: "Lunch BOX 1", category: "Lunch Box", price: 5750, image: "https://placehold.co/400x400/f59e0b/ffffff?text=Lunch+Box" },
-            { id: 10, name: "My bottle Soda (500 ml)", category: "Botol Minum", price: 5899, image: "https://placehold.co/400x400/3b82f6/ffffff?text=Bottle+Soda" },
-            { id: 11, name: "LED TEMP BOTTLE (500 ml)", category: "Botol Minum", price: 21888, image: "https://placehold.co/400x400/6366f1/ffffff?text=LED+Bottle" },
-            { id: 12, name: "Botol Tutup TOPI (350 ML)", category: "Botol Minum", price: 3688, image: "https://placehold.co/400x400/8b5cf6/ffffff?text=Botol+Topi" },
-            { id: 13, name: "Botol kelinci (330 ml)", category: "Botol Minum", price: 6498, image: "https://placehold.co/400x400/f9a8d4/ffffff?text=Botol+Kelinci" },
-            { id: 14, name: "Tumbler polos (420 ml)", category: "Botol Minum", price: 3900, image: "https://placehold.co/400x400/94a3b8/ffffff?text=Tumbler+Polos" },
-            { id: 15, name: "Premium Bundle 1 (500ml)", category: "Botol Minum", price: 28499, image: "https://placehold.co/400x400/eab308/ffffff?text=Premium+Bundle" },
+            { id: 1, name: "MY Bottle Water 1 (500 ml)", category: "Botol Minum", price: 4324, image: "https://placehold.co/400x400/0ea5e9/ffffff?text=My+Bottle+1" },
+            { id: 2, name: "MY Bottle Water 2 (500 ml)", category: "Botol Minum", price: 4999, image: "https://placehold.co/400x400/0ea5e9/ffffff?text=My+Bottle+2" },
+            { id: 3, name: "LOCk Bottle Character (610 ml)", category: "Botol Minum", price: 17860, image: "https://placehold.co/400x400/a855f7/ffffff?text=Lock+Character" },
+            { id: 4, name: "Sanrio Bottle 1 (900 ml)", category: "Botol Minum", price: 16874, image: "https://placehold.co/400x400/ec4899/ffffff?text=Sanrio+Bottle" },
+            { id: 5, name: "Kotak pensil SANRIO", category: "Lainnya", price: 23749, image: "https://placehold.co/400x400/f472b6/ffffff?text=Kotak+Pensil" },
+            { id: 6, name: "Sanrio JUMBO 1 (2L, 1L, 300ml)", category: "Botol Minum", price: 42498, image: "https://placehold.co/400x400/ec4899/ffffff?text=Sanrio+Jumbo" },
+            { id: 7, name: "Botol NICE (400 ml)", category: "Botol Minum", price: 6610, image: "https://placehold.co/400x400/10b981/ffffff?text=Botol+NICE" },
+            { id: 8, name: "Botol kaktus (450ml)", category: "Botol Minum", price: 6235, image: "https://placehold.co/400x400/22c55e/ffffff?text=Botol+Kaktus" },
+            { id: 9, name: "Lunch BOX 1", category: "Lunch Box", price: 7187, image: "https://placehold.co/400x400/f59e0b/ffffff?text=Lunch+Box" },
+            { id: 10, name: "My bottle Soda (500 ml)", category: "Botol Minum", price: 7374, image: "https://placehold.co/400x400/3b82f6/ffffff?text=Bottle+Soda" },
+            { id: 11, name: "LED TEMP BOTTLE (500 ml)", category: "Botol Minum", price: 27360, image: "https://placehold.co/400x400/6366f1/ffffff?text=LED+Bottle" },
+            { id: 12, name: "Botol Tutup TOPI (350 ML)", category: "Botol Minum", price: 4610, image: "https://placehold.co/400x400/8b5cf6/ffffff?text=Botol+Topi" },
+            { id: 13, name: "Botol kelinci (330 ml)", category: "Botol Minum", price: 8122, image: "https://placehold.co/400x400/f9a8d4/ffffff?text=Botol+Kelinci" },
+            { id: 14, name: "Tumbler polos (420 ml)", category: "Botol Minum", price: 4875, image: "https://placehold.co/400x400/94a3b8/ffffff?text=Tumbler+Polos" },
+            { id: 15, name: "Premium Bundle 1 (500ml)", category: "Botol Minum", price: 35624, image: "https://placehold.co/400x400/eab308/ffffff?text=Premium+Bundle" },
             { id: 16, name: "Bubble wrap", category: "Lainnya", price: 3000, image: "https://placehold.co/400x400/cbd5e1/ffffff?text=Bubble+Wrap" }
         ];
 
@@ -265,4 +263,5 @@
 
     </script>
 </body>
+
 </html>
